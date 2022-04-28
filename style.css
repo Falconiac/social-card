@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+/* Headline-Styling */
+h1 {
+  display: inline;
+  position: relative;
+  left: 450px;
+  margin-top: 50px;
+}
+/* Headline-Styling */
+
+/* Card-Styling */
+
+.social-card {
+  background-color: white;
+  max-width: 1000px;
+  max-height: 400px;
+  margin: 35px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.social-card h3 {
+  font-weight: 400;
+}
+
+.social-card p {
+  color: dimgray;
+}
+
+.social-card img {
+  height: 60px;
+}
+
+.social-card:hover {
+  border: 1px solid aqua;
+  transition: 500ms;
+}
+
+/* Card-Styling */
